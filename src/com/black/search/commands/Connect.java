@@ -1,4 +1,4 @@
-package com.black.cat.commands;
+package com.black.search.commands;
 
 import java.io.File;
 import java.sql.Connection;
@@ -17,8 +17,8 @@ import org.sdk.SqliteConnection;
 import org.sdk.file.FileUtils;
 import org.sdk.file.TextFile;
 
-import com.black.cat.util.Box;
 import com.black.search.database.DatabaseUtil;
+import com.black.search.util.Box;
 import com.google.common.base.Strings;
 
 public class Connect {

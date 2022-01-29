@@ -1,8 +1,8 @@
-package com.black.cat.commands;
+package com.black.search.commands;
 
 import org.sdk.ExternalTools;
 
-import com.black.cat.util.Box;
+import com.black.search.util.Box;
 import com.google.common.base.Strings;
 
 public class Cd {

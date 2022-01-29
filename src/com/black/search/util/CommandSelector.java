@@ -1,10 +1,10 @@
-package com.black.cat.util;
+package com.black.search.util;
 
-import com.black.cat.commands.Cd;
-import com.black.cat.commands.Connect;
-import com.black.cat.commands.Exit;
-import com.black.cat.commands.Ls;
-import com.black.cat.commands.Pwd;
+import com.black.search.commands.Cd;
+import com.black.search.commands.Connect;
+import com.black.search.commands.Exit;
+import com.black.search.commands.Ls;
+import com.black.search.commands.Pwd;
 
 public class CommandSelector {
 

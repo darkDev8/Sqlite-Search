@@ -1,4 +1,4 @@
-package com.black.cat.commands;
+package com.black.search.commands;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import org.sdk.data.structures.lists.StringList;
 import org.sdk.directory.DirectoryUtils;
 import org.sdk.file.FileUtils;
 
-import com.black.cat.util.Box;
+import com.black.search.util.Box;
 import com.google.common.base.Strings;
 
 public class Ls {

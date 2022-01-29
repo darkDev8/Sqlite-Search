@@ -1,4 +1,4 @@
-package com.black.cat.util;
+package com.black.search.util;
 
 import java.util.ArrayList;
 import java.util.HashMap;

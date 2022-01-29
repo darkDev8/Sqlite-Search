@@ -1,4 +1,4 @@
-package com.black.cat.util;
+package com.black.search.util;
 
 import org.sdk.data.types.Strings;
 import org.sdk.file.TextFile;

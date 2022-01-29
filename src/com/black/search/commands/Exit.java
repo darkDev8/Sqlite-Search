@@ -1,6 +1,6 @@
-package com.black.cat.commands;
+package com.black.search.commands;
 
-import com.black.cat.util.Box;
+import com.black.search.util.Box;
 
 public class Exit {
 
