@@ -12,7 +12,7 @@ The data can be simple text or a file from computer.
   </ul>
 </details>
 
-
+-----------
 ### Arguments
 
 **-p**  &nbsp;&nbsp;&nbsp;&nbsp; The database path.  </br>  </br>
