@@ -14,9 +14,9 @@ The data can be simple text or a file from computer.
 
 
 ### Arguments
--p  The database path.
--w  Wildcard for searching and finding databases.
--f  File path to read from computer and search in database.
--r  Count records of table while fetching data.
--c  Enable case sensitive search for key.
--l  Create a log file after search.
+-p  The database path.  </br>
+-w  Wildcard for searching and finding databases. </br>
+-f  File path to read from computer and search in database. </br>
+-r  Count records of table while fetching data. </br>
+-c  Enable case sensitive search for key. </br>
+-l  Create a log file after search. </br>
