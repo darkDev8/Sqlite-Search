@@ -8,6 +8,7 @@ The data can be simple text or a file from computer.
     <li><a href="#BlackSearch">BlackSearch</a></li>
     <li><a href="#Arguments">Arguments</a></li>
     <li><a href="#Packages">Packages</a></li>
+    <li><a href="#Screenshots">Screenshots</a></li>
   </ul>
 </details>
 
@@ -32,5 +33,9 @@ com.black.search.commands | Commands for searching and listing files.
 com.black.search.database | Database tools.
 com.black.search.main | Main class and engine of software.
 com.black.search.util | Tools and boot system.
+
+-----------
+
+### Screenshots
 
 ![ERROR: RUN](/img/run.png)
