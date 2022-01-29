@@ -13,6 +13,7 @@ The data can be simple text or a file from computer.
 </details>
 -----------
 ### Arguments
+
 **[P]**  &nbsp;&nbsp;&nbsp; The database path.  </br>
 **[W]**  &nbsp;&nbsp;&nbsp; Wildcard for searching and finding databases. </br>
 **[F]**  &nbsp;&nbsp;&nbsp; File path to read from computer and search in database. </br>
@@ -38,5 +39,6 @@ org.sdk6.security | Security tools for encryption and hashing
 org.sdk6.swing | Swing tools, MessageBox and 
 
 -----------
+
 ### Me 😈
 The library created by **darkDev8** </br>
