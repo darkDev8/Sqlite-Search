@@ -12,8 +12,8 @@ The data can be simple text or a file from computer.
   </ul>
 </details>
 -----------
-### Arguments
 
+### Arguments
 **[P]**  &nbsp;&nbsp;&nbsp; The database path.  </br>
 **[W]**  &nbsp;&nbsp;&nbsp; Wildcard for searching and finding databases. </br>
 **[F]**  &nbsp;&nbsp;&nbsp; File path to read from computer and search in database. </br>
@@ -23,7 +23,6 @@ The data can be simple text or a file from computer.
 
 -----------
 ### Packages
-
 Package name | Description
 ------------ | ------------
 org.sdk6.structures | Data structures contains generic lists
