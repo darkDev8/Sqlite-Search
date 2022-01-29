@@ -11,10 +11,8 @@ The data can be simple text or a file from computer.
     <li><a href="#usages">Usages</a></li>
   </ul>
 </details>
-
 -----------
 ### Arguments
-
 **[P]**  &nbsp;&nbsp;&nbsp; The database path.  </br>
 **[W]**  &nbsp;&nbsp;&nbsp; Wildcard for searching and finding databases. </br>
 **[F]**  &nbsp;&nbsp;&nbsp; File path to read from computer and search in database. </br>
