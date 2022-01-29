@@ -14,4 +14,4 @@ The data can be simple text or a file from computer.
 
 
 ### Arguments
-[-p] 
+-p. t
