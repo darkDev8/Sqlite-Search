@@ -28,4 +28,3 @@ com.black.search.commands | Commands for searching and listing files.
 com.black.search.database | Database tools.
 com.black.search.main | Main class and engine of software.
 com.black.search.util | Tools and boot system.
------------
