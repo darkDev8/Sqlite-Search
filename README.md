@@ -11,3 +11,7 @@ The data can be simple text or a file from computer.
     <li><a href="#usages">Usages</a></li>
   </ul>
 </details>
+
+
+### Arguments
+[-p] 
