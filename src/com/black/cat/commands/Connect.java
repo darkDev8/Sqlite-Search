@@ -18,6 +18,7 @@ import org.sdk.file.FileUtils;
 import org.sdk.file.TextFile;
 
 import com.black.cat.util.Box;
+import com.black.search.database.DatabaseUtil;
 import com.google.common.base.Strings;
 
 public class Connect {
@@ -55,6 +56,7 @@ public class Connect {
 				FileUtils fUtils = new FileUtils(path);
 
 				boolean found = false;
+				ResultSet rs = null;
 
 				/*
 				 * Check database file from system.
@@ -70,16 +72,8 @@ public class Connect {
 
 						addToLog("==================================================");
 						addToLog("[*] Fetching tables...");
-
-						/*
-						 * Fetching tables
-						 */
-						DatabaseMetaData metaData = con.getMetaData();
-						ResultSet rs = metaData.getTables(null, null, "%", new String[] { "TABLE" });
-						while (rs.next()) {
-							tables.add(rs.getString("TABLE_NAME"));
-						}
-
+						
+						tables = DatabaseUtil.fetchTables(con);
 						if (tables.isEmpty()) {
 							addToLog("The database is empty.");
 						} else {
@@ -89,11 +83,7 @@ public class Connect {
 								addToLog("[*] "+ table, false);
 								
 								if (countRecords) {
-									sql = "SELECT COUNT(*) AS total FROM " + table;
-									PreparedStatement pst = con.prepareStatement(sql);
-									rs = pst.executeQuery();
-									
-									addToLog("(" + rs.getInt("total") + ") records");
+									addToLog("(" + DatabaseUtil.countRecords(con, table) + ") records");
 								} else {
 									addToLog("");
 								}
@@ -107,20 +97,7 @@ public class Connect {
 							}
 
 							for (String table : tables) {
-								sql = "select * from " + table + " LIMIT 0";
-
-								List<String> columns = new ArrayList<>();
-								ArrayList<Object[]> data = new ArrayList<>();
-								Statement statement = con.createStatement();
-
-								/*
-								 * Fetch table columns
-								 */
-								rs = statement.executeQuery(sql);
-								ResultSetMetaData mrs = rs.getMetaData();
-								for (int i = 1; i <= mrs.getColumnCount(); i++) {
-									columns.add(mrs.getColumnLabel(i));
-								}
+								List<String> columns = DatabaseUtil.fetchColumns(con, table);
 
 								for (String column : columns) {
 									sql = "SELECT " + column + " FROM " + table;

@@ -3,7 +3,6 @@ package com.black.cat.main;
 import java.io.File;
 import java.io.FileFilter;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.List;
 
@@ -69,7 +68,7 @@ public class BlackSearch {
 				+ " *    ╚════██║██╔══╝  ██╔══██║██╔══██╗██║     ██╔══██║\r\n"
 				+ " *    ███████║███████╗██║  ██║██║  ██║╚██████╗██║  ██║\r\n"
 				+ " *    ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝\r\n"
-				+ " *            Created by darkDev8 (Build 200)         \r\n" + " */" };
+				+ " *            Created by darkDev8 (Build 210)         \r\n" + " */" };
 
 		Box.console.printArray(title, false, true);
 	}
@@ -93,7 +92,6 @@ public class BlackSearch {
 			Box.print("\tFailed to load system path.");
 			System.exit(-1);
 		}
-		
 		
 		Box.print("\t", false);
 		Box.console.printCharacters('=', 40, true);
@@ -148,10 +146,13 @@ public class BlackSearch {
 				case "-f" -> {
 					if (i + 1 < args.size()) {
 						filePath = args.get(i + 1).trim();
+						String currentPath = Box.vars.get("path");
 
 						if (Strings.isNullOrEmpty(filePath)) {
 							Box.print("\tYou must specify file path to read the file.");
 							return;
+						} else {
+							filePath = ExternalTools.getFilePath(currentPath, filePath, false);
 						}
 					} else {
 						Box.print("\tYou must specify file path to read the file.");
