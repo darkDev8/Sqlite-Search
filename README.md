@@ -5,7 +5,7 @@ The data can be simple text or a file from computer.
 <details>
   <summary>Table of Contents</summary>
   <ul>
-    <li><a href="#Arguments">Fixed bugs</a></li>
+    <li><a href="#Arguments">Arguments</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#packages">Packages</a></li>
     <li><a href="#usages">Usages</a></li>
@@ -22,3 +22,6 @@ The data can be simple text or a file from computer.
 **-c**  &nbsp;&nbsp;&nbsp;&nbsp; Enable case sensitive search for key. </br>  </br>
 **-l**  &nbsp;&nbsp;&nbsp;&nbsp; Create a log file after search. </br>  </br>
 
+-----------
+### Me 😈
+The library created by **darkDev8** </br>
