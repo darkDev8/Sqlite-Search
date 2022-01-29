@@ -25,18 +25,10 @@ The data can be simple text or a file from computer.
 ### Packages
 Package name | Description
 ------------ | ------------
-org.sdk6.structures | Data structures contains generic lists
-org.sdk6.types | Data types tools
-org.sdk6.database.connections | Sqlite, Mysql, Sql Server, MS Access connections
-org.sdk6.database.repositories | Classes and interfaces for searching, generate sql queries,...
-org.sdk6.io.base | Contains base interfaces for wroking with files
-org.sdk6.io.directories | Directory utilities
-org.sdk6.io.files | Tools for files(Text, Image, Pdf, Excel, Audio, Excel,...)
-org.sdk6.main | Main class of the library
-org.sdk6.net | Network tools and download progress utilities
-org.sdk6.security | Security tools for encryption and hashing
-org.sdk6.swing | Swing tools, MessageBox and 
-
+com.black.search.commands | Data structures contains generic lists
+com.black.search.database | Data types tools
+com.black.search.main | Sqlite, Mysql, Sql Server, MS Access connections
+com.black.search.util | Classes and interfaces for searching, generate sql queries,...
 -----------
 
 ### Me 😈
