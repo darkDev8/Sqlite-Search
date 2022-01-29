@@ -15,7 +15,7 @@ The data can be simple text or a file from computer.
 -----------
 ### Arguments
 
-**-p**  &nbsp;&nbsp;&nbsp;&nbsp; The database path.  </br>  </br>
+**[P]**  &nbsp;&nbsp;&nbsp;&nbsp; The database path.  </br>  </br>
 **-w**  &nbsp;&nbsp;&nbsp;&nbsp; Wildcard for searching and finding databases. </br>  </br>
 **-f**  &nbsp;&nbsp;&nbsp;&nbsp; File path to read from computer and search in database. </br>  </br>
 **-r**  &nbsp;&nbsp;&nbsp;&nbsp; Count records of table while fetching data. </br>  </br>
