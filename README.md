@@ -14,11 +14,11 @@ The data can be simple text or a file from computer.
 
 
 ### Arguments
-<pre>
-**-p**  The database path.  </br>
+
+**-p**  &nbsp;&nbsp;The database path.  </br>
 **-w**  Wildcard for searching and finding databases. </br>
 **-f**  File path to read from computer and search in database. </br>
 **-r**  Count records of table while fetching data. </br>
 **-c**  Enable case sensitive search for key. </br>
 **-l**  Create a log file after search. </br>
-</pre>
+
