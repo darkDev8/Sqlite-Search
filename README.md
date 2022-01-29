@@ -8,7 +8,6 @@ The data can be simple text or a file from computer.
     <li><a href="#BlackSearch">BlackSearch</a></li>
     <li><a href="#Arguments">Arguments</a></li>
     <li><a href="#Packages">Packages</a></li>
-    <li><a href="#Me">Me</a></li>
   </ul>
 </details>
 -----------
@@ -30,6 +29,3 @@ com.black.search.database | Database tools.
 com.black.search.main | Main class and engine of software.
 com.black.search.util | Tools and boot system.
 -----------
-
-### Me 😈
-The library created by **darkDev8** </br>
