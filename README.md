@@ -5,10 +5,10 @@ The data can be simple text or a file from computer.
 <details>
   <summary>Table of Contents</summary>
   <ul>
+    <li><a href="#BlackSearch">BlackSearch</a></li>
     <li><a href="#Arguments">Arguments</a></li>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#packages">Packages</a></li>
-    <li><a href="#usages">Usages</a></li>
+    <li><a href="#Packages">Packages</a></li>
+    <li><a href="#Me">Me</a></li>
   </ul>
 </details>
 -----------
