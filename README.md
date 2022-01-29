@@ -25,10 +25,10 @@ The data can be simple text or a file from computer.
 ### Packages
 Package name | Description
 ------------ | ------------
-com.black.search.commands | Data structures contains generic lists
-com.black.search.database | Data types tools
-com.black.search.main | Sqlite, Mysql, Sql Server, MS Access connections
-com.black.search.util | Classes and interfaces for searching, generate sql queries,...
+com.black.search.commands | Commands for searching and listing files.
+com.black.search.database | Database tools.
+com.black.search.main | Main class and engine of software.
+com.black.search.util | Tools and boot system.
 -----------
 
 ### Me 😈
