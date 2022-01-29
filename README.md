@@ -10,9 +10,11 @@ The data can be simple text or a file from computer.
     <li><a href="#Packages">Packages</a></li>
   </ul>
 </details>
+
 -----------
 
 ### Arguments
+
 **[P]**  &nbsp;&nbsp;&nbsp; The database path.  </br>
 **[W]**  &nbsp;&nbsp; Wildcard for searching and finding databases. </br>
 **[F]**  &nbsp;&nbsp;&nbsp; File path to read from computer and search in database. </br>
@@ -21,7 +23,9 @@ The data can be simple text or a file from computer.
 **[L]**  &nbsp;&nbsp;&nbsp; Create a log file after search. </br>
 
 -----------
+
 ### Packages
+
 Package name | Description
 ------------ | ------------
 com.black.search.commands | Commands for searching and listing files.
