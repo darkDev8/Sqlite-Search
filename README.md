@@ -15,10 +15,10 @@ The data can be simple text or a file from computer.
 
 ### Arguments
 
-**-p**  &nbsp;&nbsp;The database path.  </br>
-**-w**  Wildcard for searching and finding databases. </br>
-**-f**  File path to read from computer and search in database. </br>
-**-r**  Count records of table while fetching data. </br>
-**-c**  Enable case sensitive search for key. </br>
-**-l**  Create a log file after search. </br>
+**-p**  &nbsp;&nbsp;&nbsp;&nbsp; The database path.  </br>
+**-w**  &nbsp;&nbsp;&nbsp;&nbsp; Wildcard for searching and finding databases. </br>
+**-f**  &nbsp;&nbsp;&nbsp;&nbsp; File path to read from computer and search in database. </br>
+**-r**  &nbsp;&nbsp;&nbsp;&nbsp; Count records of table while fetching data. </br>
+**-c**  &nbsp;&nbsp;&nbsp;&nbsp; Enable case sensitive search for key. </br>
+**-l**  &nbsp;&nbsp;&nbsp;&nbsp; Create a log file after search. </br>
 
