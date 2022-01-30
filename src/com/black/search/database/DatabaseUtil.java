@@ -19,8 +19,7 @@ public class DatabaseUtil {
 	}
 
 	public static long countRecords(Connection connection, String tableName) throws SQLException {
-		PreparedStatement pst = connection.prepareStatement("SELECT COUNT(*) AS total FROM ?");
-		pst.setString(1, tableName);
+		PreparedStatement pst = connection.prepareStatement("SELECT COUNT(*) AS total FROM " + tableName);
 		
 		ResultSet rs = pst.executeQuery();
 		return rs.getLong("total");
